@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        #box {
+            border: 2px solid black;
+            grid-template-rows: 150px 150px;
+            /* grid-template-columns: 33.33px 33.33px 33.33px; */
+            grid-template-columns: auto auto auto;
+            display: grid;
+            grid-row-gap: 50px;
+            grid-column-gap: 50px;
+            padding: 50px;
+            background-color: antiquewhite;
+        }
+        
+        #red {
+            background-color: red;
+            order: 2;
+        }
+        
+        #green {
+            background-color: rgb(138, 221, 138);
+            order: 1;
+        }
+        
+        #yellow {
+            background-color: yellow;
+            order: 4;
+        }
+        
+        #pink {
+            background-color: pink;
+            order: 3;
+        }
+        
+        #blue {
+            background-color: rgb(155, 155, 229);
+            order: 6;
+        }
+        
+        #gray {
+            background-color: gray;
+            order: 5;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div id="red"></div>
+        <div id="green"></div>
+        <div id="yellow"></div>
+        <div id="pink"></div>
+        <div id="blue"></div>
+        <div id="gray"></div>
+    </div>
+</body>
+
+</html>

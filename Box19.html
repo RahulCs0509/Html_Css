@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        #box {
+            border: 5px solid black;
+            display: flex;
+            justify-content: space-evenly;
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* flex are be used in divide the equal part for the each color */
+            /* justify-content: space-around; */
+        }
+        
+        #red {
+            background-color: red;
+            height: 200px;
+            width: 30%;
+            /* height: 200px; */
+            /* float: left; */
+            order: 2;
+        }
+        
+        #green {
+            background-color: yellow;
+            height: 200px;
+            width: 30%;
+            /* height: 200px; */
+            /* float: left; */
+            order: 3;
+        }
+        
+        #blue {
+            background-color: green;
+            height: 200px;
+            width: 30%;
+            /* height: 100px; */
+            /* float: right; */
+            order: 1;
+            /* order are be used in change postion of color in the any box */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div id="red"></div>
+        <div id="green"></div>
+        <div id="blue"></div>
+    </div>
+</body>
+
+</html>

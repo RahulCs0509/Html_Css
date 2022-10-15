@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="icon" href="./Images/download.jfif">
+    <style>
+        form {
+            background-color: whi;
+            border: 2px solid black;
+            text-align: center;
+        }
+        
+        label {
+            background-color: azure;
+            margin: auto;
+            /* color: blueviolet; */
+        }
+        
+        input {
+            background-color: gray;
+        }
+        /* button {
+            background-color: red;
+        }
+         */
+        /* :hover button {
+            background-color: blue;
+        } */
+        
+        #btn {
+            background-color: rgb(103, 103, 198);
+            color: white;
+        }
+        
+        #btn:hover {
+            background-color: rgb(255, 0, 111);
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <label for="">FIRST NAME:</label>
+        <input type="text" required><br>
+        <BR>
+        <label for="">LAST NAME:</label>
+        <input type="text" required><br>
+        <BR>
+        <label for="">DATE OF BIRTH:</label>
+        <input type="date" required><br>
+        <br>
+        <label for="GENDER">GENDER</label>
+        <input type="radio" name="GENDER">MALE
+        <input type="radio" name="GENDER">FEMALE
+        <input type="radio" name="GENDER">OTHERS
+        <br>
+        <br>
+        <label for="">SUBJECT:</label>
+        <input type="checkbox">JAVA
+        <input type="checkbox">SQL
+        <input type="checkbox">C/C++
+        <input type="checkbox">WEB TECHNOLOGY
+        <input type="checkbox">PYTHON
+        <br>
+        <label for="">QUALIFICATION:</label>
+        <select name="" id="">
+            <option value="">BE</option>
+            <option value="">B.TECH</option>
+            <option value="">M.TECH</option>
+            <option value="">MBA</option>
+            <option value="">BBA</option>
+            <option value="">OTHERS</option>
+        </select>
+        <br>
+        <br>
+        <label for="">CONNECT NO:</label>
+        <input type="text" required><br>
+        <br>
+        <label for="">EMAIL ID:</label>
+        <input type="email" required><br>
+        <BR>
+        <button id="btn">SUBMIT</button>
+    </form>
+    <!-- action:- after clicking on the submit button where the data should go & save -->
+    <!-- for mandatiry to fill karna ho jo ek keyword used karte hain required -->
+</body>
+
+</html>
